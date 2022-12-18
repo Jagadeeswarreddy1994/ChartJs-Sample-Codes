@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Account Bar Chart Created by Me" icon-name="utility:chart">
+        <div class="slds-text-heading_medium">
+            <p>User Name: Jagadeesh</p>
+            
+        </div>
+        <template if:true={chartConfiguration}>
+            <c-chart chart-config={chartConfiguration}></c-chart>
+        </template>
+    </lightning-card>
+</template>
